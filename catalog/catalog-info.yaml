@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: accuweatherapi
-  description: |
-    Accurate Weather API - This API provides accurate weather information
+  description: Accurate Weather API - This API provides accurate weather information
   tags:
     - app-weather
   annotations:
