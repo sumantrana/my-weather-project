@@ -6,11 +6,6 @@ metadata:
     Accurate Weather API - This API provides accurate weather information
   tags:
     - app-weather
-   "labels": {
-    "team" : "core dev team",
-    "module" : "weather module",
-    "component" : "API"
-  }
   annotations:
    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=accuweatherapi"
 spec:
