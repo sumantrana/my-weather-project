@@ -9,6 +9,8 @@ gh repo create my-weather-project \
 
 git remote -v
 
+git branch -u upstream/main
+
 git add .
 
 git commit -m "Initial commit"
