@@ -4,6 +4,8 @@ metadata:
   name: accuweatherapi
   description: |
     Accurate Weather API - This API provides accurate weather information
+  tags:
+    - app-weather
    "labels": {
     "team" : "core dev team",
     "module" : "weather module",
