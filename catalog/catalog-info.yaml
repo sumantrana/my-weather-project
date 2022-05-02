@@ -2,15 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: accuweatherapi
-  description: Accurate Weather API - This API provides accurate weather information
-  tags :
-    - accuweatherapi
-    - development team A
-    - dotnet
-    - Component Z
-    - Module X
+  description: |
+    Accurate Weather API - This API provides accurate weather information
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=accuweatherapi"
+   "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=accuweatherapi"
 spec:
   type: service
   lifecycle: prototype
