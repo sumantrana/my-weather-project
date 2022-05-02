@@ -1,14 +1,19 @@
 git init -b main
-gh repo create my-tap-project \
-     --private \
+
+gh repo create my-weather-project \
+     --public \
      --source=. \
-     --remote=upstream \
-     --readme=README.md
-     --gitignore=visualstudio.gitignore
+     --remote=upstream
+
 
 
 git remote -v
+
 git add .
+
+git commit -m "Initial commit"
+
+git push upstream main
 
 k create ns development-ns
 
