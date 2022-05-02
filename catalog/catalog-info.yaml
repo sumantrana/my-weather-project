@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: accuweatherapi
   description: Accurate Weather API - This API provides accurate weather information
-  tags:
+  tags :
     - accuweatherapi
     - development team A
     - dotnet
