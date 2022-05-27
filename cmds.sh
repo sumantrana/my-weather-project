@@ -19,4 +19,7 @@ git push upstream main
 
 k create ns development-ns
 
+
+tanzu secret registry add registry-credentials --server buildservice.azurecr.io --username buildservice --password repopassword --namespace development-ns
+
 tanzu apps workload create weatherforecast -f config/workload.yaml -n developmentns
