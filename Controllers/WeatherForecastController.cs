@@ -22,7 +22,7 @@ namespace AccuWeather.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            ForecastDays = 7;
+            ForecastDays = 5;
         }
 
         [HttpGet]
