@@ -30,7 +30,23 @@ namespace AccuWeather
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AccuWeather", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "AccuWeather - The Weather API",
+                    Description = "This API provides accurate weather information rather inaccurately and can go under the weather sometimes",
+                    Version = "v1",
+                    TermsOfService = new Uri("https://pradeepl.com/accuweather/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Example Contact",
+                        Url = new Uri("https://https://pradeepl.com/accuweather/contact")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Example License",
+                        Url = new Uri("https://pradeepl.com/accuweather/license")
+                    }
+                });
             });
         }
 
