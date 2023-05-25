@@ -57,7 +57,11 @@ namespace AccuWeather
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AccuWeather v1"));
+                app.UseSwaggerUI(options => 
+                { 
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "AccuWeather v1");
+                    options.RoutePrefix = string.Empty;
+                });
             }
 
             app.UseHttpsRedirection();
