@@ -22,13 +22,13 @@ spec:
   - name: gitops_server_address
     value: https://github.com/
   - name: gitops_repository_owner
-    value: PradeepLoganathan
+    value: sumantrana
   - name: gitops_repository_name
     value: tap-gitops
   - name: gitops_ssh_secret
     value: gitops-https
   source:
     git:
-      url: https://github.com/PradeepLoganathan/my-weather-project.git
+      url: https://github.com/sumantrana/my-weather-project.git
       ref:
         branch: main
